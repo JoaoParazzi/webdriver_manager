@@ -27,6 +27,7 @@ webdriver_manager/
 │   └── test/java/       → Casos de teste automatizados
 ├── pom.xml              → Configuração do Maven
 └── README.md            → Documentação principal
+```
 📥 Pré-requisitos
 
 Antes de executar os testes, certifique-se de ter instalado:
@@ -36,21 +37,24 @@ Antes de executar os testes, certifique-se de ter instalado:
 ✔ Navegador Chrome instalado
 ✔ IntelliJ IDEA (recomendado)
 
-📌 Como Executar os Testes
+## 📌 Como Executar os Testes
 
-Clone o repositório:
+Siga os passos abaixo para rodar o projeto localmente:
 
+### 1️⃣ Clone o repositório
+
+```bash
 git clone https://github.com/JoaoParazzi/webdriver_manager.git
-
-Entre na pasta do projeto:
-
+```
+2️⃣ Acesse a pasta do projeto
+```bash
 cd webdriver_manager
-
-Rode os testes com Maven:
-
+```
+3️⃣ Execute os testes com Maven
+```bash
 mvn clean test
-
-Se tudo estiver correto, os testes serão compilados e executados automaticamente via JUnit 5.
+```
+Se a configuração estiver correta, o Maven irá compilar o projeto e executar automaticamente os testes utilizando o JUnit 5.
 
 📄 O que os Testes Fazem
 

@@ -1,37 +1,99 @@
-# Tópicos Essenciais em iniciação com Testes Automatizados
+# 🧪 webdriver_manager
 
-Neste treinamento foi realzizado uma visão essencial em se tratando de pessoas na transição de área para testes de software ou mesmo para
-quem gostaria de ter a visão geral da preparação de seu equipamento para aplicação em
-testes de softwares.
+## 📌 Descrição
 
-## 🚀 Começando
+Este repositório contém um projeto de **automação de testes web** utilizando **Selenium WebDriver com Java**, **JUnit 5** e **WebDriverManager** para gerenciamento automático dos drivers de navegador.  
+Este projeto faz parte do meu **portfólio profissional**, demonstrando habilidades em automação de testes, organização de código, boas práticas e integração com ferramentas modernas de build e execução. :contentReference[oaicite:0]{index=0}
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+---
 
-### 📋 Pré-requisitos
+## 🚀 Tecnologias Utilizadas
 
-Ser iniciante onde partiremos do absoluto ZERO até uma automação com webdrivermanager, do selenium.
-Melhorias em repositorio
-```
-Estudo de caso de um site de domínio público
-```
+✔ Java 17  
+✔ Maven  
+✔ Selenium WebDriver  
+✔ WebDriverManager :contentReference[oaicite:1]{index=1}  
+✔ JUnit 5  
+✔ IntelliJ IDEA  
 
-### 🔧 Instalações e Apresentações
+---
 
-Exemplos mão na massa.
+## 🧱 Estrutura do Projeto
 
-## ⚙️ Execução de Testes
+```text
+webdriver_manager/
+├── src/
+│   ├── main/java/       → Páginas e lógica reutilizável
+│   └── test/java/       → Casos de teste automatizados
+├── pom.xml              → Configuração do Maven
+└── README.md            → Documentação principal
+📥 Pré-requisitos
 
-Explicar como executar os testes automatizados para este sistema.
+Antes de executar os testes, certifique-se de ter instalado:
 
-### 🔩 Aqui seriam outros exemplos
+✔ JDK 17 ou superior
+✔ Apache Maven
+✔ Navegador Chrome instalado
+✔ IntelliJ IDEA (recomendado)
 
-Poderia ainda mencionar detalhes das instalações realizadas.
+📌 Como Executar os Testes
 
-## 🛠️ Construído com
+Clone o repositório:
 
-Mencione as ferramentas que você usou para criar seu projeto
+git clone https://github.com/JoaoParazzi/webdriver_manager.git
 
-* [RapidEnvironmentEditor](https://www.rapidee.com/en/download/) - Gerência de Variáveis de Ambiente
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [JDK LTS](https://github.com/corretto/corretto-17/releases/) - Máquina Virtual com JDK LTS 17
+Entre na pasta do projeto:
+
+cd webdriver_manager
+
+Rode os testes com Maven:
+
+mvn clean test
+
+Se tudo estiver correto, os testes serão compilados e executados automaticamente via JUnit 5.
+
+📄 O que os Testes Fazem
+
+Os testes implementados validam:
+
+Fluxo de cadastro simples com dados válidos
+
+Tentativa de cadastro com e-mail já existente
+
+Verificação de textos e mensagens exibidas na aplicação
+
+Esses testes demonstram o uso de seletores CSS, esperas explícitas (WebDriverWait) e validações assertivas.
+
+📌 Principais Conceitos
+🧠 WebDriverManager
+
+O WebDriverManager é responsável por baixar automaticamente o driver correto do navegador (ChromeDriver, GeckoDriver etc.) sem necessidade de configuração manual de PATH.
+
+📏 JUnit 5
+
+O framework JUnit 5 foi utilizado para a organização dos testes, execução e validação com mensagens claras de falha.
+
+💡 Boas Práticas
+
+✴ Uso de gerador de e-mails dinâmicos para evitar duplicidade
+✴ Separação de lógica de teste e lógica de páginas
+✴ Uso de esperas explícitas para garantir estabilidade dos testes
+
+🛠️ Ferramentas Recomendadas
+
+📦 Maven — Build e gerenciamento de dependências
+🧠 IntelliJ IDEA — IDE para desenvolvimento Java
+🐱‍👤 GitHub — Controle de versão
+Chrome — Navegador padrão para execução de WebDriver
+
+📈 Próximos Passos
+
+🎯 Adicionar integrações com pipelines CI/CD (GitHub Actions)
+🎯 Geração de relatórios com plugins Maven e formato HTML/Allure
+🎯 Coveralls / SonarCloud para análise de qualidade
+
+✨ Autor
+
+👤 Joao Parazzi
+📍 Brasil
+📫 Conecte-se comigo no GitHub!

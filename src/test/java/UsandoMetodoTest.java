@@ -41,6 +41,9 @@ public class UsandoMetodoTest {
         driver.quit();
     }
 
+    private String gerarEmail() {
+        return "joao52" + System.currentTimeMillis() + "@uol.com.br";
+    }
     // TESTE
     @Test
     public void testCadastro() {
@@ -48,8 +51,8 @@ public class UsandoMetodoTest {
         CadastroPage cadastroPage = new CadastroPage(driver);
 
         cadastroPage.realizarCadastro(
-                "Ulisses89225",
-                "joaopparazzi000@uol.com.br",
+                "JOAO PEDRO PARAZZI",
+                gerarEmail(),
                 "12346"
         );
 

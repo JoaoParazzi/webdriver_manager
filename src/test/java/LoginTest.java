@@ -40,7 +40,7 @@ public class LoginTest {
     public void testLogin() {
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")))
-                .sendKeys("joaopparazzi@uol.com.br");
+                .sendKeys("joaopparazzi@outlook.com.br");
 
         driver.findElement(By.id("password"))
                 .sendKeys("12346");
@@ -50,12 +50,12 @@ public class LoginTest {
 
         wait.until(ExpectedConditions.textToBe(
                 By.cssSelector("h1"),
-                "Bem Vindo Ulisses89225"
+                "Bem Vindo JOAO PEDRO PARAZZI"
         ));
 
         assertThat(
                 driver.findElement(By.cssSelector("h1")).getText(),
-                is("Bem Vindo Ulisses89225")
+                is("Bem Vindo JOAO PEDRO PARAZZI")
         );
     }
 }

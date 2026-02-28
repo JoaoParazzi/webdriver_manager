@@ -44,18 +44,18 @@ public class LoginUsandoMetodoTest {
         LoginPage loginPage = new LoginPage(driver);
 
         loginPage.realizarLogin(
-                "joaopparazzi@uol.com.br",
+                "joaopparazzi@outlook.com.br",
                 "12346"
         );
 
         wait.until(ExpectedConditions.textToBe(
                 By.cssSelector("h1"),
-                "Bem Vindo Ulisses89225"
+                "Bem Vindo JOAO PEDRO PARAZZI"
         ));
 
         assertThat(
                 driver.findElement(By.cssSelector("h1")).getText(),
-                is("Bem Vindo Ulisses89225")
+                is("Bem Vindo JOAO PEDRO PARAZZI")
         );
     }
 }

@@ -35,25 +35,3 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [RapidEnvironmentEditor](https://www.rapidee.com/en/download/) - Gerência de Variáveis de Ambiente
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [JDK LTS](https://github.com/corretto/corretto-17/releases/) - Máquina Virtual com JDK LTS 17
-
-## 📌 Versão do Treinamento
-
-Atemporal mas primeiramente publicado em 2024
-
-## ✒️ Autores
-
-Everton Ulisses
-
-* **Everton QA** - *Trabalho Inicial*
-* **Everton Full Stack** - *Documentação e Edição* -
-
-Outros cursos em[Gotas de Tecnologia](https://gotasdetecnologia.com.br)
-
-## 📄 Licença
-
-Licença MIT-  Padrão do Git para detalhes.
-
-## 🎁 Agradecimentos
-
-* A todos envolvidos 📢;
-* A família e amigos 🍺;

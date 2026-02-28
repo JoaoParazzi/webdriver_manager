@@ -68,29 +68,29 @@ Verificação de textos e mensagens exibidas na aplicação
 
 Esses testes demonstram o uso de seletores CSS, esperas explícitas (WebDriverWait) e validações assertivas.
 
-📌 Principais Conceitos
+## 📌 Principais Conceitos
 🧠 WebDriverManager
 
 O WebDriverManager é responsável por baixar automaticamente o driver correto do navegador (ChromeDriver, GeckoDriver etc.) sem necessidade de configuração manual de PATH.
 
-📏 JUnit 5
+## 📏 JUnit 5
 
 O framework JUnit 5 foi utilizado para a organização dos testes, execução e validação com mensagens claras de falha.
 
-💡 Boas Práticas
+##💡 Boas Práticas
 
 ✴ Uso de gerador de e-mails dinâmicos para evitar duplicidade
 ✴ Separação de lógica de teste e lógica de páginas
 ✴ Uso de esperas explícitas para garantir estabilidade dos testes
 
-🛠️ Ferramentas Recomendadas
+## 🛠️ Ferramentas Recomendadas
 
 📦 Maven — Build e gerenciamento de dependências
 🧠 IntelliJ IDEA — IDE para desenvolvimento Java
 🐱‍👤 GitHub — Controle de versão
 Chrome — Navegador padrão para execução de WebDriver
 
-📈 Próximos Passos
+##📈 Próximos Passos
 
 🎯 Adicionar integrações com pipelines CI/CD (GitHub Actions)
 🎯 Geração de relatórios com plugins Maven e formato HTML/Allure

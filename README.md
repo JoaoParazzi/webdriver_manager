@@ -77,7 +77,7 @@ O WebDriverManager é responsável por baixar automaticamente o driver correto d
 
 O framework JUnit 5 foi utilizado para a organização dos testes, execução e validação com mensagens claras de falha.
 
-##💡 Boas Práticas
+## 💡 Boas Práticas
 
 ✴ Uso de gerador de e-mails dinâmicos para evitar duplicidade
 ✴ Separação de lógica de teste e lógica de páginas
@@ -90,7 +90,7 @@ O framework JUnit 5 foi utilizado para a organização dos testes, execução e 
 🐱‍👤 GitHub — Controle de versão
 Chrome — Navegador padrão para execução de WebDriver
 
-##📈 Próximos Passos
+## 📈 Próximos Passos
 
 🎯 Adicionar integrações com pipelines CI/CD (GitHub Actions)
 🎯 Geração de relatórios com plugins Maven e formato HTML/Allure
